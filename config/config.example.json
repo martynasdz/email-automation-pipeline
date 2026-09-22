@@ -1,0 +1,48 @@
+{
+  "email": {
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "email_address": "",
+    "password": "",
+    "inbox_folder": "INBOX",
+    "processed_folder": "Processed",
+    "subject_prefix": "Test Order Processing",
+    "use_oauth": false
+  },
+
+  "ai": {
+    "provider": "local",
+    "api_key": "",
+    "model": "local-parser"
+  },
+
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "email_automation",
+    "password": "",
+    "database": "email_automation",
+    "charset": "utf8mb4"
+  },
+
+  "output": {
+    "csv_directory": "./output/csv_exports",
+    "temp_directory": "./temp/pdf_downloads",
+    "csv_filename_prefix": "digital_delve_export_"
+  },
+
+  "notifications": {
+    "alert_email": "",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "",
+    "smtp_password": "",
+    "from_name": "Email Automation System"
+  },
+
+  "processing": {
+    "delete_temp_files": false,
+    "max_retries": 3,
+    "retry_delay_seconds": 30
+  }
+}

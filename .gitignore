@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+
+# Local configuration containing credentials
+config/config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Temporary downloaded PDFs
+temp/pdf_downloads/*
+!temp/pdf_downloads/.gitkeep
+
+# Generated CSV exports
+output/csv_exports/*
+!output/csv_exports/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
